@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.tabs_div{
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  margin-top: 20px;
+ 
+}
+.tabs_div button{
+  white-space: nowrap;
+}
+.scale{
+  object-fit: scale-down;
+}
+
+.tabs_div::-webkit-scrollbar{
+  width: 0;
+}
+.login_form{
+  text-align: center;
+  margin:auto;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(114, 114, 212);
+  border: 1px solid black;
+  border-radius: 10%;
+
+}
+.login_h1{
+  color: aliceblue;
+  padding-top: 20px;
+}
+
+
